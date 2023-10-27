@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+/*editing the container*/
+.container{
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.heading{
+    background-color: lightskyblue;
+    padding: 25px 15px 15px 15px;
+}
+/*making the navbar stick when the user scrolls down*/
+.navlinks{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/**/
+.nav-holder{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 20px;
+    background-color: black;
+}
+/*making the links are inline with each other with space in between them*/
+.links{
+    display: inline;
+    margin-inline: 8px;
+}
+/*editing the anchor*/
+.anc{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+/*when the user hovers over links it will be responsive*/
+.links .anc:hover{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+/*editing the main part*/
+#main{
+    padding: 35px;
+    background-color: darkblue;
+}
+/*editing the main heading*/
+#mainheading{
+    color: white;
+    font-size: 31px;
+}
+/*editing the paragraphs in the main section*/
+.para1, .para2, .para3, 
+.para4, .para5{
+    color: white;
+    font-size: 20px;
+}
+/*sizing the big pictures to fit in the main section*/
+#img1{
+    width: 30%;
+}
+
+#img3{
+    width: 30%;
+}
+
+#img4{
+    margin-top: 9px;
+    width: 30%;
+}
+
+#img5{
+    width: 30%;
+}
+
+/*editing the list heading*/
+#list{
+    color: white;
+}
+/*editing the label that describes the table*/
+.table{
+    color: white;
+}
+/*editing the table*/
+table, th, td{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+}
+/*image captions for all pictures*/
+.imgcap{
+    color: white;
+}
+/* editing the about me section*/
+#about{
+    padding: 25px;
+    background-color: aqua;
+}
+
+#abtheading{
+    font-size: 22px;
+}
+
+.me{
+    color: black;
+    font-size: 19px;
+}
+
+.quote{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*editing the form section*/
+.form{
+    padding:30px;
+    background-color: cornflowerblue;
+
+}
+
+.signup{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+form{
+    padding: 20px;
+}
+
+.labels{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.radiobtn{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.inputs{
+    display: block;
+    padding: 4px;
+    width: 20%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    display: block;
+    margin-top: 6px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    padding: 4px;
+    width: 11%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.saveImg{
+    border: none;
+    padding: 8px;
+    background-color: lightblue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.saveImg:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/*editing the comment form container*/
+#comment-form{
+    padding: 45px;
+    background-color: red;
+}
+/*edited the comment submit button*/
+.submit-comment{
+    border: none;
+    border-radius: 9px;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.submit-comment:hover{
+    background-color: cornflowerblue;
+}
+/*editing the like form container*/
+#like-form{
+    background-color: aquamarine;
+    padding: 25px;
+
+}
+/*editing the like button*/
+#likeButton1, #likeButton2, #likeButton3,
+#likeButton4, #likeButton5, #likeButton6{
+    border: none;
+    border-radius: 9px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+#likeButton1:hover, #likeButton2:hover, #likeButton3:hover
+#likeButton4:hover, #likeButton5:hover, #likeButton6:hover{
+    background-color: cornflowerblue;
+}
+/*editing the contact form container*/
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: aqua;
+}
+/*editing the width of the input forms*/
+.input-forms{
+    width: 25%;
+}
+/*editing the contact form button*/
+.submit-form{
+    margin-top: 25px;
+    width: 25%;
+    border: none;
+    border-radius: 9px;
+    padding: 5px;
+    cursor: pointer;
+}
+/**/
+.submit-form:hover{
+    background-color: cornflowerblue;
+}
+
+#displayComments{
+    padding: 60px;
+    background-color: crimson;
+    list-style-type: none;
+    margin-top: 0%;
+}

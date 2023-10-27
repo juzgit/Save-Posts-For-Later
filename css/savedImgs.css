@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 12px;
+    margin-top: 16px;
+}
+
+#save-imgs{
+    background-color: aquamarine;
+}
+
+.navlinks{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+/**/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 20px;
+    background-color: black;
+}
+/*making the links are inline with each other with space in between them*/
+.links{
+    display: inline;
+    margin-inline: 8px;
+}
+/*editing the anchor*/
+.anc{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+/*when the user hovers over links it will be responsive*/
+.links .anc:hover{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.images{
+    width: 15%;
+    height: 25%;
+    display: block;
+}
+

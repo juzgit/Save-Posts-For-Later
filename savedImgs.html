@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/savedImgs.css">
+    <title>Saved Images</title>
+</head>
+<body>
+
+    <h2>Saved Images</h2>
+    
+    <!--Navigation section-->
+    <div class="navlinks">
+        <ul>
+            <!--allows the user to navigate between this file and the hobby file-->
+            <li class="links"><a class="anc" href="passion.html">My Hobby</a></li>
+            <li class="links"><a class="anc" href="mailto:gadzisorameck7@gmail.com" target="_blank">Contact Me</a></li>
+        </ul>
+    </div>
+
+
+    <!--To display the saved images-->
+    <div id="save-imgs"></div>
+
+
+    <script>
+        const saveimgs = document.getElementById("save-imgs");
+
+        function displayImgs(){
+            const savedImgs = JSON.parse(localStorage.getItem('savedImages')) || [];
+
+            savedImgs.forEach(item => {
+                const imgElement = document.createElement("img");
+                imgElement.src = item;
+                imgElement.alt = 'saved image';
+                imgElement.className= "images";
+                saveimgs.appendChild(imgElement);
+            });
+        }
+
+        window.addEventListener("load", displayImgs);
+    </script>
+</body>
+</html>
